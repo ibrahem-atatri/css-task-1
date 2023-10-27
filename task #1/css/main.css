@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.clear-f {
+    clear: both;
+}
+
+.navbar {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navbar .logo {
+    width: 50%;
+}
+
+.navbar .logo img {
+    height: 25px;
+    width: 25%;
+    float: left;
+    margin-top: 12.5px;
+}
+
+.navbar .navbar-list {
+    float: right;
+}
+
+.navbar .navbar-list ul {
+    list-style-type: none;
+    margin-right: 15px;
+    height: 25px;
+    margin-top: 12.5px;
+}
+
+.navbar .navbar-list ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.navbar .navbar-list ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-list ul li .navbar-list-first-li {
+    color: #ffc800;
+}
+
+.navbar .navbar-list ul li a:hover {
+    color: #ffc800;
+}
+
+.portfolio {
+    background-color: rgba(248, 249, 250, 1);
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio .portfolio-header {
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.portfolio h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.portfolio p {
+    font-style: italic;
+}
+
+.portfolio .portfolio-img {
+    float: left;
+
+    width: 32%;
+    background-color: white;
+    margin-left: 1%;
+    margin-bottom: 10px;
+}
+
+.portfolio .portfolio-img img {
+    width: 100%;
+}
+
+.portfolio .portfolio-img h3 {
+    text-transform: capitalize;
+}
+
+.portfolio .portfolio-img p {
+    color: #6c757d;
+}
